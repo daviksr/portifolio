@@ -1,0 +1,194 @@
+/* ================== RESET E CONFIGURAÇÕES GERAIS ================== */
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #38383f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ================== TÍTULOS E PARÁGRAFOS ================== */
+
+h1, h2, h3 { 
+    color: #000dff;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px;
+}
+
+/* ================== HEADER ================== */
+
+header {
+    background-color: #000;
+    padding: 20px;
+}
+
+.logo a {    
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu a { 
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* ================== HERO (HOME) ================== */
+
+.hero {
+    padding: 60px 20px;
+    color: #000dff;
+}
+
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.hero-img img {
+    width: 350px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    text-align: left;
+}
+
+.hero-text p {
+    color: #000000;
+    text-align: left;
+}
+
+/* ================== PROJETOS ================== */
+
+.projetos {
+    padding: 60px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;               
+    flex-wrap: wrap;         
+    color: #000;
+}
+
+.card {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* ================== CONTATO ================== */
+
+.contato {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contato form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ================== FOOTER ================== */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/* ================== ESTRUTURA ================== */
+
+section {
+    flex: 1;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ================== RESPONSIVIDADE ================== */
+
+@media (max-width: 768px) {
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topo {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* HERO responsiva */
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1,
+    .hero-text p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
