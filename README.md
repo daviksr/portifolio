@@ -44,7 +44,7 @@ Apresentar meu trabalho para recrutadores, clientes e colaboradores
 📫 Contato
 
 
-GitHub: [seu link]
+GitHub: https://github.com/daviksr/portifolio
 
 Email: italodavi273@gmail.com
 
